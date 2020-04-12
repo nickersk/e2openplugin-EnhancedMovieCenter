@@ -281,7 +281,7 @@ class EMCMediaCenter( CutList, Screen, HelpableScreen, InfoBarTimeshift, InfoBar
 		# Dialog Events
 		self.onShown.append(self.__onShow)  # Don't use onFirstExecBegin() it will crash
 		self.onClose.append(self.__onClose)
-		self.file_format = "(.ts|.avi|.mkv|.divx|.f4v|.flv|.img|.iso|.m2ts|.m4v|.mov|.mp4|.mpeg|.mpg|.mts|.vob|.asf|.wmv|.stream|.webm)"
+		self.file_format = "(.3g2|.3gp|.asf|.avi|.dat|.divx|.f4v|.flv|.img|.iso|.m2ts|.m4v|.mkv|.mov|.mp4|.mpe|.mpeg|.mpg|.mts|.ogm|.ogv|.pva|.rm|.rmvb|.stream|.ts|.vob|.webm|.wmv|.wtv)"
 
 	### Cover anzeige
 	def showCover(self):

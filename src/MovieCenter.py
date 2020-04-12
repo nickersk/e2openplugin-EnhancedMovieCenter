@@ -101,8 +101,8 @@ global sidDVB, sidDVD, sidMP3
 # Set definitions
 
 # Media types
-extAudio    = frozenset([".ac3", ".dts", ".flac", ".m4a", ".mp2", ".mp3", ".ogg", ".wav", ".wma", ".aac"])
-extVideo    = frozenset([".ts", ".trp", ".avi", ".divx", ".f4v", ".flv", ".img", ".ifo", ".iso", ".m2ts", ".m4v", ".mkv", ".mov", ".mp4", ".mpeg", ".mpg", ".mts", ".vob", ".wmv", ".bdmv", ".asf", ".stream", ".webm"])
+extAudio    = frozenset([".aac", ".ac3", ".alac", ".amr", ".ape", ".au", ".dts", ".flac", ".m2a", ".m4a", ".mid", ".mka", ".mp2", ".mp3", ".oga", ".ogg", ".wav", ".wave", ".wma", ".wv"])
+extVideo    = frozenset([".3g2", ".3gp", ".asf", ".avi", ".bdmv", ".dat", ".divx", ".f4v", ".flv", ".img", ".ifo", ".iso", ".m2ts", ".m4v", ".mkv", ".mov", ".mp4", ".mpe", ".mpeg", ".mpg", ".mts", ".ogm", ".ogv", ".pva", ".rm", ".rmvb", ".stream", ".ts", ".vob", ".webm", ".wmv", ".wtv"])
 extPlaylist = frozenset([".m3u", ".e2pls"])#, ".pls"])
 extMedia    = extAudio | extVideo | extPlaylist
 extDir      = frozenset([""])

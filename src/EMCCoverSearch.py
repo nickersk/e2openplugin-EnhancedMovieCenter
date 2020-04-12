@@ -198,7 +198,7 @@ class EMCImdbScan(Screen):
 
 		self.picload = ePicLoad()
 		#self.picload_conn = self.picload.PictureData.connect(self.showCoverCallback)
-		self.file_format = "(\.ts|\.avi|\.mkv|\.divx|\.f4v|\.flv|\.img|\.iso|\.m2ts|\.m4v|\.mov|\.mp4|\.mpeg|\.mpg|\.mts|\.vob|\.asf|\.wmv|.\stream|.\webm)"
+		self.file_format = "(\.3g2|\.3gp|\.asf|\.avi|\.dat|\.divx|\.f4v|\.flv|\.img|\.iso|\.m2ts|\.m4v|\.mkv|\.mov|\.mp4|\.mpe|\.mpeg|\.mpg|\.mts|\.ogm|\.ogv|\.pva|\.rm|\.rmvb|\.stream|\.ts|\.vob|\.webm|\.wmv|\.wtv)"
 		self.onLayoutFinish.append(self.layoutFinished)
 
 		self.showSearchSiteName = "TMDb+TVDb"
